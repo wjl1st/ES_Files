@@ -1,0 +1,208 @@
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /apps/gaussian/g16/l1.exe "/local/Gau-327418.inp" -scrdir="/local/"
+ Entering Link 1 = /apps/gaussian/g16/l1.exe PID=    327419.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                 8-Aug-2024 
+ ******************************************
+ %chk=YZ-VIII-197.chk
+ %nprocshared=16
+ Will use up to   16 processors via shared memory.
+ %mem=16GB
+ ----------------------------------------------------------------------
+ #p opt wB97XD/6-31G** iop(3/107=0119500000, 3/108=0119500000) TDA=(sin
+ glets, nstates=4, root=1)
+ ----------------------------------------------------------------------
+ 1/18=20,19=15,26=3,38=1/1,3;
+ 2/9=110,12=2,17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=101,11=9,25=1,30=1,71=1,74=-58,107=119500000,108=119500000/1,2,3,8;
+ 4//1;
+ 5/5=2,38=5/2;
+ 8/6=1,10=2,107=1,108=4/1;
+ 9/8=1,15=2,41=4,42=1,48=1/14;
+ 10/5=4,28=1/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 7/12=6,13=5,14=1/1,2,3,16;
+ 1/18=20,19=15,26=3/3(2);
+ 2/9=110/2;
+ 99//99;
+ 2/9=110/2;
+ 3/5=1,6=6,7=101,11=9,25=1,30=1,71=1,74=-58,107=119500000,108=119500000/1,2,3,8;
+ 4/5=5,16=3,69=1/1;
+ 5/5=2,38=5/2;
+ 8/6=1,10=2,107=1,108=4/1;
+ 9/8=1,15=2,41=4,42=1,48=1,49=4/14;
+ 10/5=4,28=1/2;
+ 7/12=6,13=5,14=1/1,2,3,16;
+ 1/18=20,19=15,26=3/3(-8);
+ 2/9=110/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 99/9=10/99;
+ Leave Link    1 at Thu Aug  8 12:26:31 2024, MaxMem=  2147483648 cpu:               0.8 elap:               0.1
+ (Enter /apps/gaussian/g16/l101.exe)
+ ------------------------------------------------------------
+ Tuning input file generated by xtune with parameters: w01195
+ ------------------------------------------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ 6                     1.23841   1.74948   1.08534 
+ 6                     2.54265   0.74201  -0.47821 
+ 6                     0.20541   2.10318   1.95067 
+ 6                     2.51495   2.34322   1.16914 
+ 6                     3.02388  -0.02308  -1.53833 
+ 6                     3.34608   1.70155   0.1718 
+ 6                     0.45996   3.1015    2.88558 
+ 1                    -0.76659   1.62744   1.90155 
+ 6                     2.74959   3.33928   2.11944 
+ 6                     4.35032   0.15989  -1.91588 
+ 1                     2.39738  -0.74165  -2.05274 
+ 6                     4.67336   1.87226  -0.22773 
+ 6                     1.71625   3.71924   2.96903 
+ 1                    -0.33426   3.40553   3.5588 
+ 1                     3.72623   3.80573   2.1949 
+ 6                     5.17134   1.09327  -1.26648 
+ 1                     4.75215  -0.43643  -2.72778 
+ 1                     5.30383   2.6058    0.26375 
+ 6                     0.17465  -0.03457  -0.30342 
+ 6                    -1.02318   0.54818  -0.78607 
+ 6                    -2.0912   -0.26059  -1.17252 
+ 6                    -1.98475  -1.64011  -1.05933 
+ 6                    -0.82605  -2.23966  -0.58871 
+ 6                     0.26088  -1.44525  -0.21777 
+ 7                     1.2581    0.7736    0.08052 
+ 16                   -3.40103  -2.66341  -1.48181 
+ 8                    -4.13391  -1.98045  -2.54838 
+ 8                    -2.91596  -4.03587  -1.63236 
+ 1                     1.88302   4.49571   3.70768 
+ 1                     6.20193   1.21128  -1.58307 
+ 1                    -2.98279   0.19533  -1.58628 
+ 1                    -0.75994  -3.31762  -0.50023 
+ 6                    -4.90096  -3.3896    2.21069 
+ 6                    -4.15375  -3.48796   1.03903 
+ 6                    -4.39372  -2.57801   0.01033 
+ 6                    -5.36414  -1.58275   0.12202 
+ 6                    -6.10355  -1.49475   1.29988 
+ 6                    -5.86915  -2.39313   2.34165 
+ 1                    -4.73017  -4.09305   3.01804 
+ 1                    -3.408    -4.26435   0.91259 
+ 1                    -5.54494  -0.90777  -0.70662 
+ 1                    -6.86635  -0.73044   1.39988 
+ 1                    -6.44791  -2.32105   3.25628 
+ 6                    -3.85266   4.51939   0.99163 
+ 6                    -4.03658   3.14618   1.21053 
+ 6                    -3.20159   2.19972   0.6228 
+ 6                    -2.17303   2.66633  -0.19712 
+ 6                    -1.96627   4.04533  -0.42064 
+ 6                    -2.81907   4.9745    0.17958 
+ 1                    -4.5222    5.23103   1.46225 
+ 1                    -4.84542   2.80998   1.8509 
+ 1                    -3.34897   1.14055   0.80325 
+ 1                    -2.67222   6.03724   0.0179 
+ 6                    -0.35986   2.85197  -1.55168 
+ 6                     0.70938   2.60117  -2.4089 
+ 6                     1.36042   3.69777  -2.96256 
+ 6                     0.94469   5.00994  -2.68858 
+ 6                    -0.14508   5.24938  -1.85984 
+ 6                    -0.81024   4.16275  -1.28559 
+ 1                     1.03058   1.59262  -2.6371 
+ 1                     2.20644   3.52921  -3.61981 
+ 1                     1.47502   5.84329  -3.13636 
+ 1                    -0.47717   6.26326  -1.66248 
+ 7                    -1.18348   1.94525  -0.87538 
+ 6                     4.03381  -4.72809  -1.62877 
+ 6                     2.87678  -4.3707   -2.33672 
+ 6                     1.93574  -3.49862  -1.79619 
+ 6                     2.18337  -2.99323  -0.51932 
+ 6                     3.34574  -3.33616   0.20532 
+ 6                     4.27443  -4.21364  -0.35924 
+ 1                     4.74596  -5.41179  -2.07771 
+ 1                     2.70594  -4.78195  -3.32587 
+ 1                     1.04589  -3.22823  -2.35361 
+ 1                     5.17305  -4.485     0.18485 
+ 6                     2.08978  -1.86953   1.45233 
+ 6                     1.69     -1.10867   2.54898 
+ 6                     2.53878  -1.06986   3.64964 
+ 6                     3.74435  -1.78781   3.66848 
+ 6                     4.11824  -2.57252   2.58371 
+ 6                     3.28462  -2.62066   1.46326 
+ 1                     0.75649  -0.55993   2.55004 
+ 1                     2.25804  -0.46977   4.50835 
+ 1                     4.38478  -1.73505   4.54217 
+ 1                     5.04172  -3.14165   2.6055 
+ 7                     1.43044  -2.08662   0.23749 
+ End of file in ZSymb.
+ Error termination via Lnk1e in /apps/gaussian/g16/l101.exe at Thu Aug  8 12:26:32 2024.
+ Job cpu time:       0 days  0 hours  0 minutes  6.8 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  0.9 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      2 Scr=      1
